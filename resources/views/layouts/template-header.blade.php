@@ -90,10 +90,10 @@
                                     </ul>
                                 </li>
                                 <li><a href="/contact">Contact</a>
-                                    <ul>
+                                    {{-- <ul>
                                         <li><a href="contact1.html">Contact 1</a></li>
                                         <li><a href="contact2.html">Contact 2</a></li>
-                                    </ul>
+                                    </ul> --}}
                                 </li>
                             </ul>
                         </nav>

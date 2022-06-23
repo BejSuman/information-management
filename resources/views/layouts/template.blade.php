@@ -51,7 +51,7 @@
     <!-- Preloader End Here -->
     <!-- Main Body Area Start Here -->
     <div id="wrapper">
-        
+
         @include('layouts.template-header')
 
         @yield('content')
@@ -59,8 +59,8 @@
         @include('layouts.template-footer')
 
 
-        
-        
+
+
     </div>
     <!-- Main Body Area End Here -->
 
