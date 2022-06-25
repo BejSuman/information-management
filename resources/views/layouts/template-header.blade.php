@@ -23,10 +23,10 @@
                                 <li><a href="/pages">Pages</a>
                                     <ul class="mega-menu-area">
                                         <li>
-                                            <a href="about1.html">About 1</a>
-                                            <a href="about2.html">About 2</a>
-                                            <a href="about3.html">About 3</a>
-                                            <a href="about4.html">About 4</a>
+                                            <a href="about">About 1</a>
+                                            <a href="about">About 2</a>
+                                            <a href="about">About 3</a>
+                                            <a href="about">About 4</a>
                                         </li>
                                         <li>
                                             <a href="lecturers1.html">lecturers 1</a>
