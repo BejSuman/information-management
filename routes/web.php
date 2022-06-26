@@ -1,6 +1,10 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+
+use App\Http\Controllers\Auth\AdminAuthController;
+use App\Http\Controllers\Admin\AdminController;
+
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\AboutController;
@@ -11,3 +15,24 @@ use App\Http\Controllers\AboutController;
 Route::get('/',[HomeController::class,'index']);
 Route::get('/contact',[ContactController::class,'index']);
 Route::get('/about',[AboutController::class,'index']);
+
+
+
+Route::get('admin', [AdminAuthController::class, 'getLogin']);
+
+
+Route::group(['prefix' => 'admin'], function () {
+
+    Route::get('logout', [AdminAuthController::class, 'logout'])->name('adminLogout');
+
+    Route::group(['middleware' => ['adminauth']], function () {
+        Route::get('login', [AdminAuthController::class, 'getLogin'])->name('adminLogin');
+        Route::post('login', [AdminAuthController::class, 'postLogin'])->name('adminLoginPost');
+    });
+
+    Route::group(['middleware' => ['adminAfterLogin']], function () {
+        Route::get('dashboard', [AdminController::class, 'dashboard'])->name('dashboard');
+    });
+
+
+});
