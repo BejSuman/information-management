@@ -89,7 +89,7 @@
                                         <li><a href="gallery2.html">Gallery 2</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="/contact">Contact</a>
+                                <li><a href="{!! url('contact') !!}">Contact</a>
                                     {{-- <ul>
                                         <li><a href="contact1.html">Contact 1</a></li>
                                         <li><a href="contact2.html">Contact 2</a></li>
