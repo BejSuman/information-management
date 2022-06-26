@@ -12,14 +12,7 @@
                     <div class="col-lg-8 col-md-9">
                         <nav id="desktop-nav">
                             <ul>
-                                <li class="active"><a href="/">Home</a>
-                                    <ul>
-                                        <li class="active"><a href="/">Home 1</a></li>
-                                        <li><a href="/">Home 2</a></li>
-                                        <li><a href="/">Home 3</a></li>
-                                        <li><a href="/">Home 4</a></li>
-                                    </ul>
-                                </li>
+                                <li class="active"><a href="{!! url('/') !!}">Home</a></li>
                                 <li><a href="/pages">Pages</a>
                                     <ul class="mega-menu-area">
                                         <li>
@@ -115,14 +108,7 @@
                     <div class="mobile-menu">
                         <nav id="dropdown">
                             <ul>
-                                <li><a href="#">Home</a>
-                                    <ul>
-                                        <li><a href="index.html">Home 1</a></li>
-                                        <li><a href="index2.html">Home 2</a></li>
-                                        <li><a href="index3.html">Home 3</a></li>
-                                        <li><a href="index4.html">Home 4</a></li>
-                                    </ul>
-                                </li>
+                                <li><a href="{!! url('/') !!}">Home</a></li>
                                 <li><a href="#">Pages</a>
                                     <ul>
                                         <li><a href="about1.html">About 1</a></li>
@@ -182,11 +168,7 @@
                                         <li><a href="gallery2.html">Gallery 2</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="#">Contact</a>
-                                    <ul>
-                                        <li><a href="contact1.html">Contact 1</a></li>
-                                        <li><a href="contact2.html">Contact 2</a></li>
-                                    </ul>
+                                <li><a href="{!! url('contact') !!}">Contact</a>
                                 </li>
                             </ul>
                         </nav>
