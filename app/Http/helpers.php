@@ -48,6 +48,7 @@ function get_admin_session($type = 'auth')
     }
 }
 
+
 /**
  * Generate breadcrumb row html
  * @param $pageTitle
