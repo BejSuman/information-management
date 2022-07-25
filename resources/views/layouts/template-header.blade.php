@@ -13,7 +13,7 @@
                         <nav id="desktop-nav">
                             <ul>
                                 <li class="active"><a href="{!! url('/') !!}">Home</a></li>
-                                <li><a href="/pages">Pages</a>
+                                <li><a href="#">Pages</a>
                                     <ul class="mega-menu-area">
                                         <li>
                                             <a href="about">About 1</a>
@@ -34,24 +34,24 @@
                                             <a href="single-shop.html">Shop Details</a>
                                         </li>
                                         <li>
-                                            <a href="account.html">Account</a>
-                                            <a href="registration.html">Registration</a>
+                                            <a href="{!! url('account') !!}">Account</a>
+                                            <a href="registration">Registration</a>
                                             <a href="faq.html">Faq</a>
                                             <a href="404.html">404 Error</a>
                                         </li>
                                     </ul>
                                 </li>
-                                <li><a href="/courses">Courses</a>
+                                <li><a href="#">Courses</a>
                                     <ul>
-                                        <li><a href="courses1.html">Courses 1</a></li>
-                                        <li><a href="courses2.html">Courses 2</a></li>
-                                        <li><a href="courses3.html">Courses 3</a></li>
-                                        <li><a href="single-courses1.html">Course Details 1</a></li>
-                                        <li><a href="single-courses2.html">Course Details 2</a></li>
-                                        <li><a href="single-courses3.html">Course Details 3</a></li>
+                                        <li><a href="{!! url('courses') !!}">CITA</a></li>
+                                        <li><a href="{!! url('courses') !!}">DITA</a></li>
+                                        <li><a href="{!! url('courses') !!}">ADITA</a></li>
+                                        <li><a href="{!! url('courses') !!}">WEB DEVLOPMENT</a></li>
+                                        {{-- <li><a href="single-courses2.html">Course Details 2</a></li>
+                                        <li><a href="single-courses3.html">Course Details 3</a></li> --}}
                                     </ul>
                                 </li>
-                                <li><a href="/research">Research</a>
+                                <li><a href="#">Research</a>
                                     <ul>
                                         <li><a href="research1.html">Research 1</a></li>
                                         <li><a href="research2.html">Research 2</a></li>
@@ -59,7 +59,7 @@
                                         <li><a href="single-research.html">Research Details</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="/news">News</a>
+                                <li><a href="#">News</a>
                                     <ul>
                                         <li class="has-child-menu"><a href="#">News</a>
                                             <ul class="thired-level">
@@ -76,13 +76,13 @@
                                         </li>
                                     </ul>
                                 </li>
-                                <li><a href="/gallery">Gallery</a>
+                                <li><a href="#">Gallery</a>
                                     <ul>
                                         <li><a href="gallery1.html">Gallery 1</a></li>
                                         <li><a href="gallery2.html">Gallery 2</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="{!! url('contact') !!}">Contact</a>
+                                <li><a href="{!! url('contact') !!}courses">Contact</a>
                                     {{-- <ul>
                                         <li><a href="contact1.html">Contact 1</a></li>
                                         <li><a href="contact2.html">Contact 2</a></li>
